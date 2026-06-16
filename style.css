@@ -1,72 +1,114 @@
-body{
-    margin: 0;
+*{
     padding: 0;
-    display: flex;
+    margin: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    direction: rtl;
+}
+
+
+body{
+    background-color: #262626;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #262626;
+    height: 100vh;  /* زمانی دیو ما وسط میاد که بهش هایت بدیم  */
+
+   
+}
+/* 
+insetبرای سایه دادن به داخل باکس */
+.container{
+    background-color: #2d3032;
+    width: 350px;
+    height: 540px;
+    padding: 20px;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow:
+    25px 25px 55px rgba(0, 0, 0, 0.25),
+    10px 10px 50px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
 }
 
-.loader{
+
+
+.container h2{
+    color: #fff;
+    font-size: 25px;
+    font-family: system-ui;
+}
+
+.container .list{
     display: flex;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+    position:relative ;
+
 }
 
-.loader span{
-    width: 50px;
-    height: 300px;
+.container .list::before{
+    content: '';
+    width: 55px;
+    height:55px ;
+    border-radius: 50px;
+    background-color: #b11515;
+    position: absolute;
+    top: 4;
+    left: 0;
+     box-shadow:
+    5px 5px 7px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.25),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.container .list .rank{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 10px;
+    
+}
+
+.container .list .rank::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
     background-color: #262626;
-    margin: 0 20px;
-    animation: animate 1.4s infinite;
+    border-radius: 30px;
+    transform: scale(0);
+    transition: 0.5s;
 }
 
-@keyframes animate {
-    0%{
-        box-shadow: 0 0 0 rgba(0,0,0,1);
-        opacity: 0;
-        transform: translatex(-50px) scale(1);
-    }
-    50%{
-        box-shadow: 0 20px 50px rgba(0,0,0,0.1);
-        opacity: 1;
-        transform: translatex(0) scale(1.2);
-    }
-    100%{
-         box-shadow: 0 0 0 rgba(0,0,0,0.1);
-         opacity: 0;
-          transform: translatex(50px) scale(1);
-    }
+.text{
+    margin-right: 10px;
+    color: white;
+    z-index: 1;
 }
 
+.container .list:hover .rank::before{
+    transform: scale(1);
 
-.loader span:nth-child(1) {
 
-    animation-delay:0s ;
-}
-.loader span:nth-child(2) {
-
-    animation-delay:0.2s ;
-}
-.loader span:nth-child(3) {
-
-    animation-delay:0.4s ;
-}
-.loader span:nth-child(4) {
-
-    animation-delay:0.6s ;
-}
-.loader span:nth-child(5) {
-
-    animation-delay:0.8s ;
-}
-.loader span:nth-child(6) {
-
-    animation-delay:1s ;
-}
-.loader span:nth-child(7) {
-
-    animation-delay:1.2s ;
 }
 
+.container .list:hover .rank span{
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    transition: 0.5s;
+}
 
+.container .list:hover::before{
+    width: 100%;
+    
+} 
