@@ -15,9 +15,9 @@ A clean and responsive course listing UI built for practice.
 
 <br>
 
-<a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
+<!-- <a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
 <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-ff4c60?style=for-the-badge">
-</a>
+</a> -->
 
 <br><br>
 

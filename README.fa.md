@@ -17,9 +17,9 @@
 
 
 
-<a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
+<!-- <a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
   <img src="https://img.shields.io/badge/VIEW%20LIVE-DEMO-blue?style=for-the-badge&logo=google-chrome&logoColor=white">
-</a>
+</a> -->
 
 
 
