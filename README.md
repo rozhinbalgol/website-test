@@ -41,7 +41,9 @@ GitHub: rozhinbalgol
 
 🔗 View the live project here:
 
-https://rozhinbalgol.github.io/website-test/
+<a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
+View Live Demo
+</a>
 
-> If the demo is not available yet, enable GitHub Pages in the repository settings.
+
 

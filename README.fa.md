@@ -41,6 +41,8 @@ GitHub: rozhinbalgol
 
 🔗 مشاهده نسخه آنلاین پروژه:
 
-https://rozhinbalgol.github.io/website-test/
+<a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
+مشاهده دمو
+</a>
 
-> اگر لینک هنوز فعال نیست، GitHub Pages را از بخش Settings مخزن فعال کنید.
+
