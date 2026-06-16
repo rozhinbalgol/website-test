@@ -15,9 +15,13 @@
 
 <br>
 
+
+
 <a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
-<img src="https://img.shields.io/badge/ %20  مشاهده%20دمو-ff4c60?style=for-the-badge ">
+  <img src="https://img.shields.io/badge/VIEW%20LIVE-DEMO-blue?style=for-the-badge&logo=google-chrome&logoColor=white">
 </a>
+
+
 
 <br><br>
 
