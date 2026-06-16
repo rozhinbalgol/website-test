@@ -1,48 +1,60 @@
-<div dir="rtl" align="right">
+<div align="center">
 
-🇺🇸 [English](README.md)
+# 🌐 پروژه Website Test
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)
+![Status](https://img.shields.io/badge/status-completed-success)
+![Responsive](https://img.shields.io/badge/design-responsive-blue)
+
+<br>
+
+### 🚀 پروژه فرانت‌اند | HTML و CSS
+
+یک پروژه ساده و واکنش‌گرا برای تمرین طراحی رابط کاربری.
+
+<br>
+
+<a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
+<img src="https://img.shields.io/badge/🚀%20مشاهده%20دمو-وبسایت-ff4c60?style=for-the-badge">
+</a>
+
+<br><br>
+
+🇺🇸 [Read in English](README.md)
 
 </div>
 
-# Website Test
+---
 
-یک پروژه فرانت‌اند ساده که با HTML و CSS ساخته شده است.
+## 🎯 درباره پروژه
 
-## ویژگی‌ها
+این پروژه برای تمرین طراحی رابط کاربری با HTML و CSS ساخته شده است.
 
-* رابط کاربری ساده و زیبا
-* نمایش دوره‌ها به صورت رتبه‌بندی شده
-* طراحی واکنش‌گرا (Responsive)
-* مناسب برای یادگیری HTML و CSS
+---
 
-## تکنولوژی‌های استفاده شده
+## ✨ ویژگی‌ها
+
+* طراحی مدرن
+* واکنش‌گرا
+* لیست رتبه‌بندی شده
+* سبک و ساده
+
+---
+
+## 🛠️ تکنولوژی‌ها
 
 * HTML5
 * CSS3
 
-## معرفی پروژه
+---
 
-این پروژه یک لیست از دوره‌های آموزشی را با طراحی مدرن و کارت‌مانند نمایش می‌دهد.
+## 🌍 نسخه آنلاین
 
-## ساختار پروژه
+https://rozhinbalgol.github.io/website-test/
 
-```text
-website-test/
-│
-├── index.html
-└── style.css
-```
+---
 
-## نویسنده
+## 👤 سازنده
 
-GitHub: rozhinbalgol
-
-## نسخه آنلاین (دمو)
-
-🔗 مشاهده نسخه آنلاین پروژه:
-
-<a href="https://rozhinbalgol.github.io/website-test/" target="_blank">
-مشاهده دمو
-</a>
-
-
+GitHub: [rozhinbalgol](https://github.com/rozhinbalgol)
