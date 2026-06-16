@@ -37,7 +37,6 @@ A simple frontend project built with HTML and CSS to practice layout and respons
 
 * Modern UI design
 * Responsive layout
-* Ranked course list
 * Lightweight code
 
 ---
